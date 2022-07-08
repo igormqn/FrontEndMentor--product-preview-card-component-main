@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap');
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.6rem;
+    width: 40rem;
+    height: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pic-img {
+   background-image: url(images/image-product-desktop.jpg);
+   background-size: cover;
+   height: 28rem;
+   width: 20rem;
+   margin-top: 10rem;
+   border-radius: 0.6rem 0 0 0.6rem;
+}
+.script-block{
+    margin-left: 23rem;
+    margin-top: -28rem;
+}
+h1{
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+h2{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -3rem;
+}
+p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-left: 4rem;
+    padding-right: 1rem;
+    font-weight: 500;
+    margin-left: -5rem;
+    line-height: 1.5rem;
+    margin-top: -0.5rem;
+}
+.price{
+    display: flex;
+    font-family: Fraunces;
+    align-items: center;
+    margin-left: -1rem;
+}
+.new-price{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+.old-price{ 
+    margin-left: 1.5rem;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+
+}
+.button-add{
+        margin-left: -1rem;
+    margin-top: 1rem;
+}
+button{
+    width: 16rem;
+    height: 3.5rem;
+    background-color: hsl(158, 36%, 40%);
+    border: none;
+    border-radius: 0.7rem;
+    color: hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+}
+svg{
+    margin-right: 0.7rem;
+}
+.attribution{
+    margin-top: 3rem;
+}
+@media screen and (max-width: 660px) {
+    .box {
+        height: 38rem;
+        width: 22rem;
+        margin-top: -8rem;
+    }
+    .pic-img{
+        background-image: url(images/image-product-mobile.jpg) ;
+        background-size: cover;
+        width: 22rem;
+        height: 15rem;
+        border-radius: 0.6rem 0.6rem 0 0;
+    }
+    .script-block{
+        margin-top: 0rem;
+        margin-left: 2rem;
+        
+    }
+    h1{
+        margin-left: -0.8rem;
+    }
+    h2{
+        margin-top: -0.5rem;
+    }
+    p{
+        margin-top: -1.5rem;
+    }
+    .price{
+        margin-top: 2rem;
+    }
+    button{
+        width: 20rem;
+    }
+}
